@@ -1,4 +1,4 @@
-### Zepto SQL Data Analysis
+# Zepto SQL Data Analysis
 
 
 
@@ -6,7 +6,7 @@ This project performs data exploration, cleaning, and analysis on the Zepto data
 
 
 
-###### 📌 Introduction
+## 📌 Introduction
 
 
 
@@ -24,7 +24,7 @@ Through SQL queries, the project provides actionable insights that can guide dec
 
 
 
-###### 🎯 Objectives
+## 🎯 Objectives
 
 
 
@@ -32,25 +32,25 @@ The main objectives of this project are:
 
 
 
-1\. Top 10 Best-Value Products – Find products with the highest discount percentage.
+1\. **Top 10 Best-Value Products –** Find products with the highest discount percentage.
 
-2\. High-MRP Out-of-Stock Products – Identify expensive products that are currently unavailable.
+2\. **High-MRP Out-of-Stock Products –** Identify expensive products that are currently unavailable.
 
-3\. Estimated Revenue per Category – Calculate expected revenue contribution from each category.
+3\. **Estimated Revenue per Category –** Calculate expected revenue contribution from each category.
 
-4\. High-MRP, Low-Discount Products – Find products where MRP > ₹500 and discount < 10%.
+4\. **High-MRP, Low-Discount Products –** Find products where MRP > ₹500 and discount < 10%.
 
-5\. Top 5 Categories by Average Discount – Discover categories offering the highest discounts on average.
+5\. **Top 5 Categories by Average Discount –** Discover categories offering the highest discounts on average.
 
-6\. Price per Gram Analysis – Compute price per gram for products above 100g to assess best value.
+6\. **Price per Gram Analysis –** Compute price per gram for products above 100g to assess best value.
 
-7\. Product Categorization by Weight – Classify products into Low, Medium, and Bulk categories.
+7\. **Product Categorization by Weight –** Classify products into Low, Medium, and Bulk categories.
 
-8\. Total Inventory Weight per Category – Calculate inventory weight distribution across categories.
+8\. **Total Inventory Weight per Category –** Calculate inventory weight distribution across categories.
 
 
 
-###### 🗂️ Project Structure
+## 🗂️ Project Structure
 
 
 
@@ -66,7 +66,7 @@ The main objectives of this project are:
 
 
 
-###### 📦Dataset
+## 📦Dataset
 
 
 
@@ -96,7 +96,7 @@ The dataset includes the following fields:
 
 
 
-###### 🔍 Data Exploration \& Cleaning
+## 🔍 Data Exploration \& Cleaning
 
 
 
@@ -112,7 +112,7 @@ The dataset was first explored and cleaned before analysis:
 
 ###### 
 
-###### 📊 SQL Analysis
+## 📊 SQL Analysis
 
 
 
@@ -128,9 +128,10 @@ The zepto\_data\_analysis.sql file includes all queries that address the objecti
 
 
 
-###### 📝 Notes
+## 📝 Notes
 
 
 
 * Queries are optimized for PostgreSQL but can be adapted to other SQL environments with minor changes.
 * This project is for educational and analytical purposes, focusing on SQL problem-solving.
+
